@@ -62,6 +62,26 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liD-b3-bEt">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pd-pA-B9N">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -69,12 +89,16 @@
                             <constraint firstAttribute="trailing" secondItem="Cas-VO-hIi" secondAttribute="trailing" constant="48" id="8hU-LR-0vm"/>
                             <constraint firstItem="ceJ-4p-l1B" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="8jb-St-LmT"/>
                             <constraint firstItem="XA2-vh-8HC" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="53" id="DpQ-V3-j1p"/>
+                            <constraint firstAttribute="trailing" secondItem="liD-b3-bEt" secondAttribute="trailing" constant="38" id="ElX-SP-rRP"/>
+                            <constraint firstItem="6pd-pA-B9N" firstAttribute="top" secondItem="liD-b3-bEt" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Ffk-6m-OJI"/>
                             <constraint firstAttribute="bottom" secondItem="XA2-vh-8HC" secondAttribute="bottom" constant="133" id="FrA-YT-Vdf"/>
                             <constraint firstAttribute="bottom" secondItem="Cas-VO-hIi" secondAttribute="bottom" constant="58" id="U2l-M1-vwK"/>
                             <constraint firstItem="v5c-Me-Ta8" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="31" id="UJJ-6D-zWv"/>
                             <constraint firstItem="R6p-CI-Oi0" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="152" id="Xeh-j9-dUL"/>
                             <constraint firstItem="ceJ-4p-l1B" firstAttribute="top" secondItem="3" secondAttribute="top" constant="128" id="e7X-3w-kSc"/>
                             <constraint firstItem="R6p-CI-Oi0" firstAttribute="top" secondItem="3" secondAttribute="top" constant="235" id="eOM-Fl-YXX"/>
+                            <constraint firstAttribute="trailing" secondItem="6pd-pA-B9N" secondAttribute="trailing" constant="31" id="nCG-yI-82B"/>
+                            <constraint firstAttribute="bottom" secondItem="6pd-pA-B9N" secondAttribute="bottom" constant="94" id="rRv-HK-3aE"/>
                         </constraints>
                     </view>
                 </viewController>
