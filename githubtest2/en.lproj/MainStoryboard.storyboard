@@ -22,9 +22,21 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XA2-vh-8HC">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="XA2-vh-8HC" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="53" id="DpQ-V3-j1p"/>
+                            <constraint firstAttribute="bottom" secondItem="XA2-vh-8HC" secondAttribute="bottom" constant="133" id="FrA-YT-Vdf"/>
                             <constraint firstItem="R6p-CI-Oi0" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="152" id="Xeh-j9-dUL"/>
                             <constraint firstItem="R6p-CI-Oi0" firstAttribute="top" secondItem="3" secondAttribute="top" constant="235" id="eOM-Fl-YXX"/>
                         </constraints>
